@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "AI Summary & Chat for Articles",
+  "version": "2.1",
+  "description": "Get AI-powered summaries or chat with web articles using Google Gemini via local RAG server",
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "storage",
+    "tabs"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "options.html",
+  "host_permissions": [
+    "http://127.0.0.1:7860/*",
+    "http://localhost:7860/*"
+  ]
+}
