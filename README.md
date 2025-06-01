@@ -1,4 +1,4 @@
-# 🔍 AI Summary & Chat for Articles
+# 🔍 RAG based AI Summary & Chat for Articles
 
 This project combines a **Chrome Extension** and a **local FastAPI server** to provide real-time AI-powered summarization and chat capabilities for any web article, powered by **Google Gemini** through a **Retrieval-Augmented Generation (RAG)** approach.
 
