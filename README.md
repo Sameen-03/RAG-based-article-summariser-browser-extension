@@ -35,7 +35,7 @@ Chrome Extension → FastAPI RAG Server → Gemini API
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 - `FastAPI`, `aiohttp`, `pydantic`
 - `Google Gemini API`
