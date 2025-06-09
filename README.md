@@ -3,7 +3,7 @@
 This project combines a **Chrome Extension** and a **local FastAPI server** to provide real-time AI-powered summarization and chat capabilities for any web article, powered by **Google Gemini** through a **Retrieval-Augmented Generation (RAG)** approach.
 ---
 
-https://github.com/user-attachments/assets/d98edee8-d4e3-47f8-97dc-32c3a71f240e
+https://github.com/user-attachments/assets/a0e90be1-5c11-4652-a26f-407f0c2f60c7
 
 ---
 
